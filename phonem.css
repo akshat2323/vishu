@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: rgb(218, 98, 255);
+     color: seashell;
+ }
+
+ h1{
+     margin: 5px 40px;
+     font-size: 1.8rem;
+ }
+
+ div{
+     width: 420px;
+     height: 2000px;
+ }
+ div section.odd{
+     margin: 20px 15px;
+     width: 350px;
+     height: 450px;
+ }
+ section.odd img{
+     position: relative;
+     top: 0;
+     left: -100px;
+ }
+ section.odd p{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 231px;
+    top: 181px;
+    left: 87px;
+ }
+
+ div section.even{
+     margin: 20px 15px;
+    width: 350px;
+    height: 450px;
+}
+section.even img{
+    position: relative;
+    top: 0;
+    left: 40px;
+}
+ section.even p{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 231px;
+    top: 181px;
+    left: -130px;
+ }
+ div a#btn{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    top: 90px;
+    left: 130px;
+ }

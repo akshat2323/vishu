@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(251, 113, 136, 0.5);
+}
+
+.navigation ul li a{
+    font-family: sans-serif;
+    color: seashell;
+}
